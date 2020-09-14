@@ -7,7 +7,7 @@ export default function App() {
   const [users, setUsers] = useState([]);
 
   async function fetchData(param) {
-    let url = "https://randomuser.me/api/?results=20";
+    let url = "https://randomuser.me/api/?results=100";
 
     if (param) {
       url = `${url}&gender=${param}`;
