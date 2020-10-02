@@ -17,12 +17,11 @@
   background: #226fbe;
   cursor: pointer;
   letter-spacing: 1px;
-  font-weight: 700;
   outline: none;
   position: relative;
-  border: 4px solid #226fbe;
+  border: 2px solid #226fbe;
   border-radius: 60px;
-  padding: 10px 50px;
+  padding: 2px 50px;
 }
 
 .filter-form > button:hover {
@@ -36,7 +35,11 @@
 }
 
 .list-container > li {
-  max-width: 150px;
-  margin: 10px;
+  max-width: 250px;
+  margin: 20px;
   list-style-type: none;
+}
+
+.list-container > li > img {
+  border-radius: 15px;
 }

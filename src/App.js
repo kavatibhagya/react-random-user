@@ -65,8 +65,8 @@ export default function App() {
           <li key={user.login.uuid}>
             <img
               src={user.picture.medium}
-              width="100px"
-              height="100px"
+              width="200px"
+              height="200px"
               alt="profile"
             ></img>
             <div>
