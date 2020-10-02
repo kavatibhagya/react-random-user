@@ -37,7 +37,7 @@ export default function App() {
     <div className="App">
       <h1>Random users</h1>
       <h4>Filter by gender</h4>
-      <form onSubmit={filterusers}>
+      <form onSubmit={filterusers} className="filter-form">
         <p>
           <label>Male</label>
           <input
@@ -60,7 +60,7 @@ export default function App() {
         </p>
         <button type="submit">Filter</button>
       </form>
-      <ul>
+      <ul class="list-container">
         {users.map((user) => (
           <li key={user.login.uuid}>
             <img
