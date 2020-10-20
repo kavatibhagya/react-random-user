@@ -21,7 +21,7 @@
   position: relative;
   border: 2px solid #226fbe;
   border-radius: 60px;
-  padding: 2px 50px;
+  padding: 1px 40px;
 }
 
 .filter-form > button:hover {
